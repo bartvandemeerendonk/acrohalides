@@ -1,0 +1,15 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<Pane fx:controller="app.Dashboard.Controller"
+      xmlns:fx="http://javafx.com/fxml">
+    <children>
+        <Button fx:id="addNodeButton" onAction="#clickAddNodeButton" text="Add node" layoutX="0.0" layoutY="0.0"></Button>
+        <Button fx:id="refreshButton" onAction="#refresh" text="" layoutX="100.0" layoutY="0.0"></Button>
+        <GridPane fx:id="nodesGridPane" layoutX="0.0" layoutY="50.0" vgap="10"></GridPane>
+    </children>
+</Pane>

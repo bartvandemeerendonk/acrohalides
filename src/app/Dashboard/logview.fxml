@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="app.Dashboard.Logview"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <ScrollPane layoutX="20.0" layoutY="20.0" vmax="50" maxHeight="500" prefHeight="500" prefWidth="550">
+            <VBox fx:id="logVBox" layoutX="0.0" layoutY="0.0"></VBox>
+        </ScrollPane>
+    </children>
+
+</Pane>
